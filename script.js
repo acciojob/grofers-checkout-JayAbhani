@@ -25,6 +25,7 @@ const getSum = () => {
   newRow.classList.add("total-row");
 
   const newCell = document.createElement("td");
+  newCell.id = "ans";
   newCell.setAttribute("colspan", "2");
   newCell.style.fontWeight = "bold";
   newCell.textContent = "Total Price: Rs " + total;
